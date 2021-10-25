@@ -2,13 +2,17 @@
 <html>
 <head>
     <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
-<form action="test" method="post">
-    帐号:<input type="text" name="name"/><br/>
-    密码:<input type="password" name="password"/><br/>
-    <input type="submit" value="登录"/>
-</form>
+<div id="login">
+    <form action="test" method="post">
+        帐号:<input type="text" name="name"/><br/>
+        密码:<input type="password" name="password"/><br/>
+        <input type="submit" value="登录"/>
+    </form>
+
+</div>
 
 
 </body>
