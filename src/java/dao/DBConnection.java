@@ -3,13 +3,13 @@ import java.sql.*;
 
 public class DBConnection{
     //定义数据库驱动类
-    private final String DBDRIVER = "com.mysql.jdbc.Driver" ;
+    private static String DBDRIVER = "com.mysql.cj.jdbc.Driver" ;
     //定义数据库连接URL
-    private final String DBURL = "jdbc:mysql://localhost:3306/test" ;
+    private static String DBURL = "jdbc:mysql://localhost:3306/test" ;
     //定义数据库连接用户名
-    private final String DBUSER = "root" ;
+    private static String DBUSER = "root" ;
     //定义数据库连接密码
-    private final String DBPASSWORD = "12345" ;
+    private static String DBPASSWORD = "12345" ;
     //定义数据库连接对象
     private Connection conn = null ;
     //构造方法，加载驱动

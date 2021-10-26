@@ -1,5 +1,5 @@
 package dao;
 
 public interface Dao {
-    public boolean login(User user) throws Exception;
+    public  void login(String name,String password) throws Exception;
 }
