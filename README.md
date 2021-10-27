@@ -14,4 +14,5 @@
 <!-- vim-markdown-toc -->
 ## 如何使用
 ## 版本详解 
+[v1.0](./note/v1.0.md) 
 
